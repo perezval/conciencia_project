@@ -1,0 +1,202 @@
+/* notas */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap') ;
+
+
+header {
+    display: flex;     
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 60px;
+
+}
+header img {
+    width: 60px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li {
+    margin: 0 25px;
+    font-size: larger;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+nav a {
+    color: black !important; /* Letra negra para los enlaces */
+}
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Color suave para hover */
+}
+
+
+
+
+h1 {
+    color: #6A1D65 !important;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+h2 {
+    color: #6A1D65 !important;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+p {
+    color: black;
+    font-size: larger;
+    font-family: "Josefin Sans", sans-serif;
+}
+li {
+    font-family: "Josefin Sans", sans-serif; 
+}
+html body a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.who {
+    padding: 0 10%;
+    margin-top: 10%;
+}
+
+.nosotras img {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+.visiongeneral img {
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#mision,
+#vision {
+    flex: 1;
+    margin: 80px;
+    max-width: 500px;
+}
+
+.line {
+    border: 40px solid #FAE733;
+    margin-bottom: 10%;
+}
+
+#actividades {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Espacio entre elementos */
+}
+.item {
+    flex: 0 1 calc(30% - 20px);
+    height: 80px;
+    background-color: #6A1D65;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box; /* Incluir padding en el ancho */
+    border-radius: 10px; /* Bordes redondeados */
+}
+.item:hover {
+    background-color: #FAE733; /* Color de cuando selecciono */
+}
+
+#actividades h2 {
+    margin-bottom: 90px;
+}
+#actividades {
+    margin-bottom: 15%;
+}
+
+
+.carousel-inner {
+    display: flex;
+}
+.carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+    z-index: 1;
+}
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.card {
+    margin: 10px;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 0; /* Centra los botones verticalmente */
+    z-index: 2; /* Asegura que los botones estén sobre los demás elementos */
+    width: 5% !important; /* Reduce el ancho del área clickable */
+    height: 10% !important;
+}
+.carousel-control-prev {
+    left: 0; /* Posiciona hacia la izquierda */
+}
+.carousel-control-next {
+    right: 0; /* Posiciona hacia la derecha */
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black; /* Cambia a un color visible según tu diseño */
+}
+/* Cambiar el color de los botones */
+.btn-primary {
+    background-color: white !important; /*Color de fondo */
+    border-color:#6A1D65 !important;    /* Color del borde */
+    color: black !important;           /* Color del texto */
+}
+/* Estilos para el estado :hover y :focus de los botones */
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #6A1D65 !important; /* Color más oscuro al pasar el mouse o enfocar */
+    border-color: white !important;     /* Color de borde coherente con el estado hover */
+    color: white !important;           /* Color del texto */
+}
+
+
+
+#contact {
+    margin-top: 15%;
+    margin-bottom: 90px;
+}
+
+footer {
+    font-size: small;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
